@@ -27,5 +27,6 @@
     "getbodychild",
     "getlastchild",
     "Musicwith"
-  ]
+  ],
+  "liveServer.settings.port": 5501
 }
