@@ -21,5 +21,12 @@
   "workbench.view.alwaysShowHeaderActions": true,
   "editor.rulers": [
       100, 120
-  ]
+  ],
+  "cSpell.words": [
+    "Brendon",
+    "getbodychild",
+    "getlastchild",
+    "Musicwith"
+  ],
+  "liveServer.settings.port": 5501
 }

@@ -1,0 +1,69 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.challenge {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.box, .note, .background, .flex-item {
+  width: 100px;
+  height: 100px;
+}
+
+.background {
+  background-color: #e74c3c;
+  position: relative;
+}
+
+.note {
+  background-color: #f1c40f;
+}
+
+.flex-item {
+  background-color: #3498db;
+  margin: 10px;
+}
+
+
+/* .challenge1 {
+  border: solid 2px;
+  left: 20px;
+  top: 30px;
+  position: relative;
+} */
+
+.challenge2 {
+  position: absolute;
+  top: 515px;
+}
+
+.challenge3 {
+  position: fixed;
+  top: 20px;
+  left: 30px;
+
+}
+
+.challenge4 {
+  display:flex;
+  flex-direction:row-reverse;
+  justify-content: space-between;
+}
+
+.challenge8 {
+  display:flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 600px){
+  .challenge8{
+flex-direction: column;
+  }
+}
+/* Add styles for remaining challenges here */
